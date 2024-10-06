@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(resources/fonts/Roboto/Roboto-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Rum';
+    src: url(resources/fonts/the-rum-is-gone-font/TheRumIsGone-Wy1nG.ttf) format(truetype);
+}
+
+/* elements */
+body {
+    background-color: #101214;
+    font-family: 'Roboto';
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li,
+p,
+a,
+h1,
+h2 {
+    color: #ffffff;
+}
+
+/* classes */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.half {
+    width: 50%;
+    height: auto;
+}
+
+.half div {
+    height: fit-content;
+}
+
+ul.anchor {
+    list-style-position: outside;
+    font-size: x-large;
+}
+
+ul.ship {
+    list-style-position: outside;
+    font-size: x-large;
+}
+
+/* ids */
+#sideA {
+    background-color: rgba(0, 255, 255, 0.5);
+    padding-top: 30vh;
+    text-align: center;
+}
+
+#sideA p {
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+#sideA a {
+    font-size: 1.5rem;
+    padding: 10px;
+    opacity: 70%;
+    transition: 0.5s;
+}
+
+#sideA a:hover {
+    font-size: 1.9em;
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+#sideB {
+    background-color: rgba(127, 255, 212, 0.5);
+}
+
+#about div {
+    width: 60%;
+}
+
+#resume {
+    color: aqua;
+    transition: 0.5s;
+}
+
+#resume:hover {
+    color: aquamarine;
+    font-size: 1.7em;
+    transition: 0.5s;
+}
+
+#logo {
+    width: 8em;
+    height: auto;
+    background-color: rgba(255, 0, 0, 1);
+}
