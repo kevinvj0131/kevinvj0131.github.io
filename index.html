@@ -4,11 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Kevin Jones</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/604d527703.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <h1>Hello World</h1>
+<body id="body">
+    <script type="text/javascript" src="index.js"></script>
+
+    <div class="container" id="container">
+        <div class="half" id="sideA">
+            <img src="resources\images\logo.svg" alt="Logo Image" id="logo" onclick="changeLogo()">
+            <h2>Kevin Jones</h2>
+            <p>Accokeek, MD</p>
+            <a href="https://github.com/kevinvj0131"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kevin-jones-a997b7284/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:kevinv.j0131@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <br>
+            <button onclick="turnOffBackground()">Button1</button>
+
+        </div>
+
+        <div class="half" id="sideB">
+            <div id="about">
+                <h1>About</h1>
+                <div>
+                    <p>I am a senior Computer Science student at Towson University. I have a passion for creating things
+                        so I hope to find a career in software development. I am currently taking a class in web
+                        development, and have plans to take a class on mobile development next semester.</p>
+                </div>
+            </div>
+            <div id="courses">
+                <h1>Courses Taken</h1>
+                <ul class="anchor" id="anchor">
+                    <li>COSC 336: Data Structures and Algorithms</li>
+                    <li>COSC 412: Software Engineering</li>
+                    <li>COSC 457: Database Management</li>
+                    <li>COSC 484: Web-Based Programming</li>
+                    <li>COSC 461: Artificial Intelligence</li>
+                </ul>
+            </div>
+            <div id="courses">
+                <h1>Projects</h1>
+                <ul class="ship" id="ship">
+                    <li>This Website</li>
+                    <li></li>
+                </ul>
+            </div>
+            <div id="info">
+                <h1>Info</h1>
+                <a href="resources\kevinJones.pdf" id="resume">Resume</a>
+            </div>
+            <div id="interest">
+                <h1>Interest</h1>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
