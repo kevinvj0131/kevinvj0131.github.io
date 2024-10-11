@@ -51,7 +51,6 @@ ul.ship {
 
 /* ids */
 #sideA {
-    background-color: rgba(0, 255, 255, 0.5);
     padding-top: 30vh;
     text-align: center;
 }
@@ -75,12 +74,11 @@ ul.ship {
     transition: 0.5s;
 }
 
-#sideB {
-    background-color: rgba(127, 255, 212, 0.5);
-}
-
-#about div {
-    width: 60%;
+#sideB p {
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin: 0;
+    width: 75%;
 }
 
 #resume {
@@ -97,5 +95,5 @@ ul.ship {
 #logo {
     width: 8em;
     height: auto;
-    background-color: rgba(255, 0, 0, 1);
+    background-color: rgba(127, 255, 212, 1);
 }
